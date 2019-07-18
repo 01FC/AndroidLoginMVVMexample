@@ -1,4 +1,4 @@
-package com.fcamacho.loginmvvm.`interface`
+package com.fcamacho.loginmvvm.callbacks
 
 interface LoginResultCallback {
     fun onSuccess(message:String?)

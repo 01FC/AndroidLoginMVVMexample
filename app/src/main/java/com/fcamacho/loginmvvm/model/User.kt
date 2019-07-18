@@ -1,4 +1,8 @@
 package com.fcamacho.loginmvvm.model
 
-class User {
-}
+import androidx.databinding.BaseObservable
+
+data class User(
+    var mail: String? = ""
+    , var pass: String? = ""
+) : BaseObservable()
